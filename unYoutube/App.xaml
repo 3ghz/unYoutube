@@ -1,0 +1,14 @@
+﻿<Application x:Class="unYoutube.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:unYoutube"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+
+        <BitmapImage x:Key="ImageSource1" CreateOptions="IgnoreImageCache" CacheOption="OnLoad" UriSource="C:\Users\Nilay\Documents\Visual Studio 2017\Projects\unYoutube\unYoutube\Resources\icons8-back-to-filled.png"/>
+        <BitmapImage x:Key="ImageSource2" CreateOptions="IgnoreImageCache" CacheOption="OnLoad" UriSource="C:\Users\Nilay\Documents\Visual Studio 2017\Projects\unYoutube\unYoutube\Resources\icons8-next-page-filled.png"/>
+        <BitmapImage x:Key="ImageSource3" CreateOptions="IgnoreImageCache" CacheOption="OnLoad" UriSource="C:\Users\Nilay\Documents\Visual Studio 2017\Projects\unYoutube\unYoutube\Resources\icons8-close.png"/>
+        <BitmapImage x:Key="ImageSource4" CreateOptions="IgnoreImageCache" CacheOption="OnLoad" UriSource="C:\Users\Nilay\Documents\Visual Studio 2017\Projects\unYoutube\unYoutube\Resources\rveve.png"/>
+
+    </Application.Resources>
+</Application>
